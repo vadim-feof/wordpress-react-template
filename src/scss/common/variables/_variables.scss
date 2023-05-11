@@ -1,0 +1,32 @@
+$containers: (
+  // Use in: ./sass/layouts/_layouts.scss
+  desktop: 1400,
+  other: 1024,
+);
+
+$adaptive-font-containers: (
+  // Use in: ./sass/common/mixins/_adaptive-font.scss
+  _max: 1920,
+  _min: 320
+);
+
+$typography: (
+  /*
+  *  Use in: ./sass/common/typography/_typography.scss
+  *  $name, $max, $min, $line-height.
+  *  (Output: .font-title, .font-subtitle, ...)
+  */
+  title 48 22 1.4,
+  subtitle 32 18 1.3,
+  subtitle-2 24 17 1.1,
+  subtitle-3 22 16 1.2,
+  body 16 13 1.4,
+);
+
+$breakpoints: (
+  // Use in: ./sass/common/media/_breakpoints.scss
+  laptop: 1600px,
+  tablet: 1025px,
+  tablet-s: 769px,
+  mobile: 576px
+);

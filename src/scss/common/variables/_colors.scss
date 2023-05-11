@@ -1,0 +1,63 @@
+:root {
+  --color-yellow: #FFBC00;
+  --color-black: #262626;
+  --color-white: #FFFFFF;
+  --color-white-2: #FAFAFA;
+  --color-gray-1: #939393;
+  --color-gray-2: #DDDDDD;
+  --color-gray-3: #747474;
+
+  --color-blue-link: #41A4FF;
+
+  /*--- Input colors ---*/
+  --color-input-placeholder: rgba(0, 0, 0, 0.5);
+  --color-input-text: rgba(0, 0, 0, 0.8);
+  --color-input-focus: rgba(0, 0, 0, 0.9);
+  --color-input-border: #D9D9D9;
+  --color-invalid: #E94242;
+  --color-valid: #00c00f;
+}
+
+:root {
+
+  /*--- Header colors ---*/
+  --header-bg-color: #F4EFE9;
+  --header-nav-text-color: #9f6544;
+  --header-nav-text-font-weight: 700;
+  --header-columng-gap: 2em;
+
+  /*--- Footer colors ---*/
+  --footer-bg-color: #F4EFE9;
+  --footer-nav-text-color: #9f6544;
+  --footer-nav-text-font-weight: 700;
+
+  /*--- Header sizes ---*/
+  --header-min-height: 80px;
+  --header-nav-font-size: 21px;
+
+  /*--- Button colors ---*/
+
+  // .primary-btn
+  --btn-primary-bg-color: #9f6544;
+  --btn-primary-text-color: #FFFFFF;
+
+  /*--- Button sizes ---*/
+  --btn-padding: 1em 1.2em;
+  --btn-border-radius: 12px;
+  --btn-font-size: 18px;
+  --btn-font-weight: 500;
+
+  /*--- Common colors ---*/
+  --primary-color: #A06545;
+  --secondary-color: #FFFFFF;
+  --desc-color: #000000;
+
+  /*--- Accordion colors ---*/
+  --accordion-circle-bg-color: #9f6544;
+  --accordion-circle-line-color: #FFFFFF;
+  --accordion-answer-bg-color: #F4EFE9;
+
+  /*--- Slider colors ---*/
+  --slider-dots-bg-color: #9f6544;
+  --slider-dots-border-color: #9f6544;
+}

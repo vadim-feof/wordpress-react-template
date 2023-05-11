@@ -1,0 +1,12 @@
+@each $name, $max, $min, $line-height in $typography {
+  .font-#{$name} {
+    @include adaptive-font($max, $min);
+    line-height: $line-height;
+  }
+}
+
+html, body {
+  font-family: $font-family;
+  color: var(--primary-color);
+  @extend .font-body;
+}
