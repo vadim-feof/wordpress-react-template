@@ -3,8 +3,6 @@
 get_header();
 ?>
 
-page
-
 <div id="react-app"></div>
 
 <?php

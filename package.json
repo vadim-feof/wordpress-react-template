@@ -12,9 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/browser-sync-webpack-plugin": "^2.2.2",
     "@types/node": "^20.1.2",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
     "@types/webpack": "^5.28.1",
     "@types/webpack-dev-server": "^4.7.2",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "css-loader": "^6.7.3",
     "mini-css-extract-plugin": "^2.7.5",
     "sass": "^1.62.1",
@@ -27,8 +31,6 @@
     "webpack-cli": "^5.1.1"
   },
   "dependencies": {
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
