@@ -12,6 +12,7 @@ export default (env: BuildEnv) => {
 
     const mode = env.mode || 'development'
     const port = env.port || 3000
+    const proxy = env.proxy || 'localhost'
 
     const isDev = mode === 'development'
 
@@ -19,7 +20,8 @@ export default (env: BuildEnv) => {
         mode,
         paths,
         isDev,
-        port
+        port,
+        proxy
     })
 
     return config

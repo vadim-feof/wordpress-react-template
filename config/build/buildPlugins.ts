@@ -3,7 +3,7 @@ import {BuildOptions} from "./types/config";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import BrowserSyncPlugin from 'browser-sync-webpack-plugin';
 
-export function buildPlugins({paths}: BuildOptions): webpack.WebpackPluginInstance[] {
+export function buildPlugins({paths, proxy, port}: BuildOptions): webpack.WebpackPluginInstance[] {
 
     return [
         new webpack.ProgressPlugin(),
@@ -18,8 +18,8 @@ export function buildPlugins({paths}: BuildOptions): webpack.WebpackPluginInstan
         }),
         // @ts-ignore
         new BrowserSyncPlugin({
-            proxy: 'wp-react.localhost',
-            port: 3000,
+            proxy: proxy,
+            port: port,
             reloadDebounce: 100,
             notify: true,
             ghostMode: false,
