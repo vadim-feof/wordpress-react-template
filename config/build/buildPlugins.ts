@@ -20,15 +20,11 @@ export function buildPlugins({paths, proxy, port}: BuildOptions): webpack.Webpac
         new BrowserSyncPlugin({
             proxy: proxy,
             port: port,
-            reloadDebounce: 100,
+            reloadDebounce: 0,
             notify: true,
             ghostMode: false,
             files: [
                 `./**/*.php`,
-                `./**/*.js`,
-                `./**/*.scss`,
-                '!**/*.css.map',
-                '!**/*.js.map',
             ],
             watchEvents: ["change", "add"],// "add" to reload when js file names are dynamic
         })
