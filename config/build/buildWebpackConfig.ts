@@ -19,6 +19,9 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
         module: {
             rules: buildLoaders(options)
         },
+        externals: {
+            jquery: 'jQuery'
+        },
         resolve: buildResolvers(),
     }
 }

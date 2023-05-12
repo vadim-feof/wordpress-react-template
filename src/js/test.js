@@ -1,1 +1,2 @@
-alert('test')
+console.log($('header').text('hello123'))
+
